@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bowen Wang - Homepage</title>
+    <meta name="description" content="Academic homepage for Bowen Wang.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%238c1515'/%3E%3Cpath d='M16 47 28.5 17h7L48 47h-8.2l-2.1-5.6H26.3L24.2 47H16Zm12.5-12.1h7L32 25.4l-3.5 9.5Z' fill='%23ffffff'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#top">Homepage</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Educations</a>
+        <a href="#honors">Honors and Awards</a>
+        <a href="#news">News</a>
+        <a href="#publications">Main Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+      </nav>
+    </header>
+
+    <main id="top" class="page-shell">
+      <aside class="profile-card" aria-label="Profile">
+        <div class="portrait-frame">
+          <img class="portrait" src="image/微信图片_20260403151139_258_315.jpg" alt="Bowen Wang" onerror="this.classList.add('is-missing');">
+        </div>
+        <h1>Bowen Wang <span>(王泊闻)</span></h1>
+        <p class="role">Ph.D. Student</p>
+        <ul class="profile-list">
+          <li>School of Integrated Circuits, Peking University</li>
+          <li>Beijing, China</li>
+          <li><a href="mailto:wangdaosen@stu.pku.edu.cn">wangdaosen@stu.pku.edu.cn</a></li>
+          <li><a href="https://scholar.google.com/citations?user=TD5m9RoAAAAJ&hl=zh-CN">Google Scholar</a></li>
+          <li><a href="https://www.linkedin.com/in/bowen-wang-565960434">LinkedIn</a></li>
+        </ul>
+      </aside>
+
+      <article class="content">
+        <section id="about" class="section intro-section">
+          <p class="pku-label">Peking University Academic Homepage</p>
+          <h2>Welcome!</h2>
+          <p>
+            I am Bowen Wang, a Ph.D. student at the School of Integrated Circuits,
+            Peking University. I am advised by Prof. Yuchao Yang from the School of
+            Integrated Circuits and Researcher Yaoyu Tao from the Institute for
+            Artificial Intelligence, Peking University.
+          </p>
+          <p>
+            My research interests include flash-aware AI deployment, compute-in-memory chips, error correction
+            coding hardware, optical communication FEC
+            architectures, and hardware accelerators for visual rendering.
+          </p>
+        </section>
+
+        <section id="education" class="section">
+          <h2>Educations</h2>
+          <ul>
+            <li>2024.09 - 2029.06 (expected), Ph.D. in Science, School of Integrated Circuits, Peking University.</li>
+            <li>2020.09 - 2024.06, B.S. in Science, School of Electronics Engineering and Computer Science, Peking University. GPA: 3.75/4, ranking: 9/46.</li>
+            <li>2024.09 - 2025.06, Joint doctoral training experience at Beijing Academy of Artificial Intelligence.</li>
+          </ul>
+        </section>
+
+        <section id="honors" class="section">
+          <h2>Honors and Awards</h2>
+          <ul>
+            <li>2026, First Prize, Huawei Cup China Graduate IC Innovation Competition. The first-prize group was ranked among the top 18 out of more than 800 participants.</li>
+            <li>Peking University Third Prize Scholarship.</li>
+            <li>Shenzhen Stock Exchange Scholarship.</li>
+            <li>Peking University Social Work Award, Academic Excellence Award, Outstanding League Member, and Merit Student.</li>
+            <li>Outstanding League Member, School of Electronics Engineering and Computer Science, Peking University.</li>
+          </ul>
+        </section>
+
+        <section id="news" class="section">
+          <h2>News</h2>
+          <ul class="news-list">
+            <li><strong>2026.09:</strong> Our foveated rendering CIM chip work was presented on ESSERC 2026.</li>
+            <li><strong>2026.8:</strong> I received the First Prize in the Huawei Cup China Graduate IC Innovation Competition.</li>
+            <li><strong>2026.4:</strong> Our PCM-based charge-domain CIM macro extension was published in IEEE ICAS.</li>
+            <li><strong>2025.10:</strong> Our PCM-based charge-domain CIM macro paper was selected as a best paper candidate at IEEE ICTA 2025.</li>
+          </ul>
+        </section>
+
+        <section id="publications" class="section">
+          <h2>Main Publications</h2>
+
+          <h3>Conference Papers</h3>
+          <div class="publication">
+            <div class="pub-venue">ESSERC 2026</div>
+            <div class="pub-body">
+              <figure class="pub-thumb">
+                <img src="image/ESSERC.svg" alt="ESSERC 2026 paper illustration">
+              </figure>
+              <div>
+                <p>
+                  <strong>[ESSERC'26]</strong>
+                  A 40nm 3.58 mJ/Frame PCM-Based POSIT/INT Mixed-Precision Digital/Analog CIM Chip for Edge Foveated Rendering.
+                </p>
+                <p><strong>Bowen Wang</strong>†, Zelun Pan†, Zhe Zhan, Longhao Yan, Jiukai Fang, Xile Wang, Yuqi Li, Minghui Yin, Xi Li, Zhitang Song, Yaoyu Tao, Yuchao Yang.</p>
+                <p>IEEE European Solid-State Electronics Research Conference, 2026.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="publication">
+            <div class="pub-venue">ICTA 2025</div>In the ongoing third and fourth phases, studying how different LLM architectures can be offloaded to Flash storage, how to efficiently use internal Flash bandwidth, and whether local customized computing circuits can be placed inside Flash-side control logic.
+            Exploring Flash-NPU hybrid architectures and CSD-assisted attention, including task partitioning and scheduling across NPU/GPU, Flash dies/controllers, and SSD-level resources.
+            Analyzing single-batch LLM weight access and multi-batch long-sequence KV cache offloading, focusing on bottlenecks from Flash page granularity, internal channel bandwidth, and host/accelerator data movement.
+            Studying sparse-attention and KV-cache access patterns for Flash-oriented data mapping, row/column sparse reads, bandwidth optimization through storage redundancy, and lightweight on-die ECC for protecting outlier weights under Flash errors.
+            <div class="pub-body">
+              <figure class="pub-thumb">
+                <img src="image/ICTA.svg" alt="ICTA 2025 paper illustration">
+              </figure>
+              <div>
+                <p>
+                  <strong>[ICTA'25]</strong>
+                  A 617.7 TOPS/W PCM-Based Charge-Domain CIM Macro with Capacitor Reuse Method and Scalable Local Compute Unit.
+                </p>
+                <p><strong>Bowen Wang</strong>†, Longhao Yan†, Xiyuan Tang, Xile Wang, Yuqi Li, Zeyu Wang, Zelun Pan, Daijing Shi, Zhe Zhan, Yaoyu Tao, Zhitang Song, Yuchao Yang.</p>
+                <p>IEEE International Conference on Integrated Circuits, Technologies and Applications, 2025. Best paper candidate.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Journal Articles</h3>
+          <div class="publication">
+            <div class="pub-venue">ICAS 2026</div>
+            <div class="pub-body">
+              <figure class="pub-thumb">
+                <img src="image/ICAS.svg" alt="ICAS 2026 paper illustration">
+              </figure>
+              <div>
+                <p>
+                  <strong>[ICAS]</strong>
+                  A Scalable Charge-Domain CIM Macro With 2T1R1C Cells and Capacitor Reuse Method.
+                </p>
+                <p><strong>Bowen Wang</strong>†, Longhao Yan†, Xiyuan Tang, Xile Wang, Yuqi Li, Zeyu Wang, Zelun Pan, Daijing Shi, Zhe Zhan, Yaoyu Tao, Zhitang Song, Yuchao Yang.</p>
+                <p>IEEE Integrated Circuits and Systems, 2026.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <h2>Projects</h2>
+          <h3>Flash LDPC ECC Architecture, LLM Deployment, and Local Computing</h3>
+          <p><strong>Project lead, Chipsbank cooperation, 2025.07 - 2028.07.</strong></p>
+          <ul>
+            <li>Completed the first two project phases by building C++ software code and test infrastructure for QC-LDPC parity-check matrix construction across multiple code lengths and rates, matrix-based encoding, GALE decoding for single-bit Flash readout, and normalized min-sum decoding for multi-bit Flash readout; iteratively optimized correction performance for TLC/QLC Flash reliability; and implemented the LDPC ECC RTL, optimized architecture, area, and throughput, and delivered a 200 MHz post-synthesis netlist while maintaining multi-code-length and multi-code-rate compatibility.</li>
+            <li>In the ongoing third and fourth phases, studying Flash-side LLM deployment across different model architectures, efficient use of internal Flash bandwidth, and local customized computing circuits inside Flash-side control logic; exploring Flash-NPU hybrid architectures and CSD-assisted attention with task partitioning and scheduling across NPU/GPU, Flash dies/controllers, and SSD-level resources; analyzing single-batch LLM weight access and multi-batch long-sequence KV cache offloading bottlenecks from Flash page granularity, internal channel bandwidth, and host/accelerator data movement; and investigating Flash-oriented data mapping, row/column sparse reads, bandwidth optimization through storage redundancy, and lightweight on-die ECC for outlier-weight protection under Flash errors.</li>
+            <li>Worked with the development team on code implementation and circuit architecture, held regular code reviews, and coordinated system architecture, module design, dataflow organization, project requirements, and milestone deliverables with the company team.</li>
+          </ul>
+
+          <h3>Low-Power oFEC Architecture for Optical Communication</h3>
+          <ul>
+            <li>Implemented an openZR+ oFEC software performance baseline for medium- and long-reach optical interconnect scenarios.</li>
+            <li>Designed a 256 Gbps single-lane oFEC decoder hardware baseline for 28 nm tape-out verification.</li>
+            <li>Explored inner-decoder pooling, scheduling, and early-termination architectures to reduce decoder count while preserving error-correction performance.</li>
+          </ul>
+
+          <h3>High-Efficiency RRAM-Based Intelligent Chip</h3>
+          <p><strong>Project member, National Key R&amp;D Program, 2022.11 - 2024.12.</strong></p>
+          <ul>
+            <li>Contributed circuit modules for multiple compute-in-memory chips, including low-noise current-mode sense amplifiers, multi-level wear-leveling schedulers, and distributed capacitor SAR ADCs.</li>
+          </ul>
+        </section>
+
+        <section id="research" class="section">
+          <h2>Other Research Experience</h2>
+          <h3>High-Throughput Low-Area Soft-Decision GRAND Decoder</h3>
+          <p><strong>2025.09 - Present.</strong></p>
+          <ul>
+            <li>Working on chip architecture for GRAND, a universal decoding algorithm that guesses channel noise patterns in probability order for high-reliability communication scenarios.</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Service and Student Work</h2>
+          <ul>
+            <li>Deputy Minister, Youth League Committee Culture and Sports Department, Peking University.</li>
+            <li>Undergraduate counselor, freshman counselor, and summer school counselor at Peking University.</li>
+          </ul>
+        </section>
+
+        <section id="contact" class="section">
+          <h2>Contact</h2>
+          <p>
+            Email: <a href="mailto:wangdaosen@stu.pku.edu.cn">wangdaosen@stu.pku.edu.cn</a><br>
+            Address: No. 5 Yiheyuan Road, Haidian District, Beijing, China.
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      Last updated: September 2026.
+    </footer>
+  </body>
+</html>
